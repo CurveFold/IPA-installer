@@ -1,1 +1,1 @@
-# IPA-installer
+# IPA installer
