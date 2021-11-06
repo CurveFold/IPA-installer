@@ -9,7 +9,7 @@ document.getElementById('URI').value = 'https://unc0ver.dev/downloads/7.0.2/11c3
 }
 
 function init() {
-document.getelementbyid("app").innerHTML = "<h1>IPA installer</h1>
+document.getElementbyid("app").innerHTML = "<h1>IPA installer</h1>
 </h1>
 <center><textarea id="URI" placeholder="https://example.com/app.ipa"></textarea><button href="#" onclick="install()"><b>GET</b></button>
   <h1></h1></center>
