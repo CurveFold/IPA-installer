@@ -7,6 +7,8 @@ var URI = document.getElementById("URI").value;
 function unc0ver() {
 document.getElementById('URI').value = 'https://unc0ver.dev/downloads/7.0.2/11c3f7b0eea806ba3cac975f74dcc2cc4e916bac/unc0ver_Release_7.0.2.ipa';
 }
+
+function init() {
 document.getelementbyclassname("app").innerHTML = "<h1>IPA installer</h1>
 </h1>
 <center><textarea id="URI" placeholder="https://example.com/app.ipa"></textarea><button href="#" onclick="install()"><b>GET</b></button>
@@ -16,4 +18,5 @@ document.getelementbyclassname("app").innerHTML = "<h1>IPA installer</h1>
 <a href="#" onclick="unc0ver()">unc0ver</a>
 <h1></h1>
 <footer><center ><note>VaultDevs © 2020</note></center></footer>
-"
+";
+}
